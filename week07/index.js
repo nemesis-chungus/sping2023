@@ -16,3 +16,5 @@ app.get('/', async(req, res) => {
 app.listen(port, () => {
     console.log(`Example app listening on port ${port}`)
 })
+ 
+app.use(express.static('nemesis-chungus/spring2023/week07/public'))
